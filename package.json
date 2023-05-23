@@ -1,5 +1,5 @@
 {
-  "name": "my-react-app",
+  "name": "test-shops",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,12 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "react-redux": "^8.0.5",
+    "styled-components": "^5.3.6"
+
+    
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
