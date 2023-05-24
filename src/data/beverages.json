@@ -1,0 +1,9 @@
+[
+   { "id": "id-1", "title": "Coca-cola Lime", "price": 30, "volume": 500 },
+   { "id": "id-2", "title": "Sprite", "price": 30, "volume": 500 },
+   { "id": "id-3", "title": "Dr Pepper", "price": 25, "volume": 330 },
+   { "id": "id-4", "title": "Pepsi", "price": 25, "volume": 330 },
+   { "id": "id-5", "title": "Coca-cola", "price": 30, "volume": 500 },
+   { "id": "id-6", "title": "Fanta", "price": 29, "volume": 500 },
+   { "id": "id-7", "title": "Mirinda", "price": 29, "volume": 500 }
+ ]
