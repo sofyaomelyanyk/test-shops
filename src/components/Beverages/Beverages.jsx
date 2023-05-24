@@ -1,18 +1,21 @@
 import beverages from "../../data/beverages.json";
+import { Title, Wrap, List, Name } from "./Beverages.styled";
 
 export const Beverages = () => {
   return (
     <>
-      <h1>Beverages</h1>
-      {beverages.map(({ id, title, price, volume }) => {
-        return (
-          <ul key={id}>
-            <li>{title}</li>
-            <li>Price: {price}UAH</li>
-            <li>Volume: {volume} ml</li>
-          </ul>
-        );
-      })}
+      <Title>Beverages</Title>
+      <Wrap>
+        {beverages.map(({ id, title, price, volume }) => {
+          return (
+            <List key={id}>
+              <Name>{title}</Name>
+              <li>Price: {price}UAH</li>
+              <li>Volume: {volume} ml</li>
+            </List>
+          );
+        })}
+      </Wrap>
     </>
   );
 };
